@@ -1,0 +1,21 @@
+domain: mongodb.com
+layout:
+- go.kubebuilder.io/v3
+projectName: provider-mongodb
+repo: mongodb.com/provider-mongodb
+resources:
+- api:
+    crdVersion: v1
+  domain: mongodb.com
+  group: mongodb
+  kind: Project
+  path: mongodb.com/provider-mongodb/api/v1alpha1
+  version: v1alpha1
+- api:
+    crdVersion: v1
+  domain: mongodb.com
+  group: mongodb
+  kind: Cluster
+  path: mongodb.com/provider-mongodb/api/v1alpha1
+  version: v1alpha1
+version: "3"
